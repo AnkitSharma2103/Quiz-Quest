@@ -1,0 +1,129 @@
+ @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100;300;400;500;600;700;800&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Playpen Sans', cursive;
+}
+
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #ededed;
+  background: url("../public/bgc.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 100vh;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  color: #171717;
+}
+
+h3 {
+  padding-bottom: 2rem;
+  color: #000105;
+  font-size: 1.8rem;
+}
+
+button {
+  padding: 16px 8px;
+  width: 100%;
+  margin-top: 12px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  /* background-color: #808080; */
+  background-color: #090900;
+  color: #f8f8f8;
+}
+button:hover {
+  scale: 1.02;
+  transition-duration: 0.2s;
+}
+button:active {
+  scale: 0.98;
+  transition-duration: 0.2s;
+}
+
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 9px 0;
+  padding: 16px 8px;
+  color: #000105;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+.li-hover:hover {
+  background-color: #d8d8d8;
+  columns: #fff;
+  font-weight: 500;
+}
+
+.li-selected {
+  color: #fff;
+  background-color: #000925;
+}
+
+.container {
+  max-width: 740px;
+  width: 100%;
+  margin: auto;
+  margin-top: 3rem;
+  min-height: 90vh;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quiz-container {
+  background-color: #f8f8f8;
+  box-shadow: 0px 0px 2px #141414;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+}
+
+.container p {
+  padding: 8px 0;
+}
+
+@media only screen and (min-width: 1440px) {
+
+  
+
+  .container > h1 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  .container > a > button {
+    font-size: 2.5rem;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .container > h1 {
+    font-size: 6rem;
+    margin-bottom: 4rem;
+  }
+  .container > a > button {
+    font-size: 5rem;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+}
