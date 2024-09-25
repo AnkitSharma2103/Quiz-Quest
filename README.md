@@ -32,7 +32,7 @@ Check out our live demo [here](#) to experience the Quiz Quest in action!
 [![Quiz Quest Demo](https://quiz-quest-app.netlify.app/)](#)
 
 ## Contributers
-*Aman Jain*
+*Aman Jain , *
 *Devashish Soni*
 
 ## Getting Started
