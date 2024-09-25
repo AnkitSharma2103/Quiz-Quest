@@ -31,6 +31,10 @@ Check out our live demo [here](#) to experience the Quiz Quest in action!
 
 [![Quiz Quest Demo](https://quiz-quest-app.netlify.app/)](#)
 
+## Contributers
+[![Aman Jain](https://github.com/VAmanjain)](#)
+[![Devashish Soni](https://github.com/devashishsoni98)](#)
+
 ## Getting Started
 
 To run Quiz Quest locally, follow these steps:
